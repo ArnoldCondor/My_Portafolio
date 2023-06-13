@@ -1,0 +1,93 @@
+@import url(colors.css);
+body {
+  background-color: var(--dark-color);
+  font-family: 'Raleway', sans-serif;
+  color: var(--light-color);
+}
+
+.name h1 {
+  font-weight: 800;
+  font-size: 3rem;
+  margin-bottom: 5px;
+  padding-bottom: 0;
+}
+.description h2 {
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.presentation {
+  max-width: 300px;
+  font-weight: 600;
+  color: var(--gray-color);
+}
+
+li {
+  font-family: 'Kanit', sans-serif;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--light-color-darker);
+}
+a:hover {
+  color: white;
+}
+
+svg {
+  width: 28px;
+  margin: 5px;
+}
+
+.nav-bar {
+  margin-top: 50px;
+  line-height: 40px;
+}
+
+.social-network_icon {
+  margin-top: 40px;
+  max-width: 150px;
+  display:flex;
+  justify-content: space-around;
+}
+
+.container {
+  margin-top: 5%;
+  margin-bottom: 8%;
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+
+.column-left {
+  width: 50%;
+  position: fixed;
+}
+
+
+.column-right {
+  width: 50%;
+  margin-left: 50%;
+  line-height: 25px;
+  font-weight: 600;
+  color: var(--gray-color);
+}
+.text-about {
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+
+.text-projects {
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+
+.text-contact {
+  padding-top: 100px;
+  margin-top: 150px;
+  margin-bottom: 300px;
+
+}

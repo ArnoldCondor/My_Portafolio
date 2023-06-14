@@ -1,8 +1,8 @@
 :root {
   --dark-color: rgb(15,23,42);
   --light-color: rgb(226,232,240);
-  --light-color-darker: rgb(206,216,238);
+  --light-color-darker: #ced8ee;
   --gray-color: rgb(128,142,163);
   --green-color: rgb(79,194,196);
-  --gree-color-darker: rgb(24,54,79);
+  --green-color-darker: rgb(24,54,79);
 }

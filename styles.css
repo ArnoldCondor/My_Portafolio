@@ -31,15 +31,17 @@ li {
 
 a {
   text-decoration: none;
-  color: var(--light-color-darker);
-}
-a:hover {
-  color: white;
+  color: var(--gray-color);
 }
 
-.github:active {
-  color: white;
+.line:hover {
+  background-color: var(--light-color);
+  /* transform: scaleX(2); */
 }
+a:hover {
+  color: var(--light-color);
+}
+
 
 .social-network_icon a svg {
   width: 28px;
@@ -59,21 +61,26 @@ a:hover {
   justify-content: space-around;
 }
 
+
 .container {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px; */
   margin-top: 5%;
   margin-bottom: 8%;
   margin-left: 10%;
   margin-right: 10%;
 
 }
-
 .column-left {
+  /* float: left; */
   width: 50%;
   position: fixed;
 }
 
 
 .column-right {
+  /* float: right; */
   width: 50%;
   margin-left: 50%;
   line-height: 25px;
@@ -218,6 +225,61 @@ label {
   outline-offset: 2px;
 }
 
-/* .button:active {
-  background-color: var(--green-color);
+.line {
+border: none;
+background-color: var(--gray-color);
+width: 30px;
+height: 1px;
+padding: 0;
+margin: 0;
+}
+
+.line-link {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 5px;
+}
+
+.title-menu {
+  display: none;
+  color: var(--light-color);
+}
+
+.small-screan {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .title-menu {
+    display: block;
+    color: var(--light-color);
+  }
+  .column-left {
+    display: none;
+    width: 0%;
+  }
+  .small-screan {
+    display: block;
+  }
+  .column-right {
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .name h1 {
+    line-height: 3rem;
+    font-weight: 800;
+    font-size: 3rem;
+    margin-bottom: 5px;
+    padding-bottom: 15px;
+    color: var(--light-color);
+  }
+}
+
+/* @media screen and (max-width: 640px) and (max-width:1024px) {
+  .title-menu {
+    display: block;
+    color: var(--light-color);
+  }
 } */
